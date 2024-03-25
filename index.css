@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed black;
+}
+
+#movieInfo {
+  max-width: 500px;
+  width: 80vw;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  text-align: center;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  background: rgb(248, 164, 62);
+  padding: 1rem;
+  margin: 0;
+}
+
+p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+span {
+  font-weight: bold;
+}
